@@ -1,0 +1,5 @@
+rootProject.name = 'aeonIOSpush'
+include ':@aws-amplify_pushnotification'
+project(':@aws-amplify_pushnotification').projectDir = new File(rootProject.projectDir, '../node_modules/@aws-amplify/pushnotification/android')
+
+include ':app'
